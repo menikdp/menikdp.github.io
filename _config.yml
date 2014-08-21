@@ -20,3 +20,6 @@ author:
 version:          1.0.0
 github:
   repo:           https://github.com/poole/poole
+
+# Handling Reading
+exclude:      ["Gemfile", "Gemfile.lock", "Rakefile", "lib/tasks/*"]
