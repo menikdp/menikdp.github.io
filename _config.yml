@@ -9,8 +9,8 @@ permalink:       /posts/:year/:month/:day/:title
 title:            My Own Ruby
 tagline:          Learning Ruby
 url:              http://menikdp.github.io
-paginate:         2
-baseurl:          ""
+paginate:         5
+baseurl:          /
 author:
   name:           Menik Damayanti Pratiwi
   url:            https://twitter.com/_menikdp
