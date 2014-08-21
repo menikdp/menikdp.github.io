@@ -3,23 +3,20 @@ markdown:         redcarpet
 pygments:         false
 
 # Permalinks
-permalink:        pretty
+permalink:       /posts/:year/:month/:day/:title
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
-paginate:         1
-baseurl:          /
+title:            My Own Ruby
+tagline:          Learning Ruby
+url:              http://menikdp.github.io
+paginate:         2
+baseurl:          ""
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Menik Damayanti Pratiwi
+  url:            https://twitter.com/_menikdp
+  email:          menik.damayanti.p@gmail.com
 
 # Custom vars
 version:          1.0.0
 github:
   repo:           https://github.com/poole/poole
-
-#highlight
-highlighter:      rouge
