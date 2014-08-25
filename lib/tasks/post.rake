@@ -1,7 +1,7 @@
 # var
 source_dir = ""
 posts_dir = "_posts"
-new_post_ext = "markdown"
+new_post_ext = "md"
 
 # usage : rake post:create
 desc "Begin a new post in #{source_dir}#{posts_dir}"
