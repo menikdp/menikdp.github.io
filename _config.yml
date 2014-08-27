@@ -1,25 +1,104 @@
-# Dependencies
-markdown:         redcarpet
-highlighter: rouge
 
-# Permalinks
-permalink:       /posts/:year/:month/:day/:title
-
-# Setup
-title:            My Own Ruby
-tagline:          Learning Ruby
-url:              http://menikdp.github.io
-paginate:         5
-baseurl:          /
-author:
-  name:           Menik Damayanti P
-  url:            https://twitter.com/_menikdp
-  email:          menik.damayanti.p@gmail.com
-
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/poole/poole
-
+# ===== jekyll default
+# Where things are
+source: .
+destination: ./_site
+plugins: ./_plugins
+layouts: ./_layouts
+data_source: ./_data
+collections: null
 # Handling Reading
-exclude:      ["Gemfile", "Gemfile.lock", "Rakefile", "lib/tasks/*"]
+safe: false
+include: [".htaccess"]
+exclude: ["Gemfile", "Gemfile.lock", "Rakefile", "lib/tasks/*"]
+keep_files: [".git", ".svn"]
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext: "textile"
+# Plugins
+whitelist: []
+gems: []
+# Conversion
+markdown: kramdown
+highlighter: pygments
+lsi: false
+excerpt_separator: "\n\n"
+# Serving
+detach: false
+port: 4000
+host: 0.0.0.0
+baseurl: "" # does not include hostname
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future: true
+unpublished: false
+# Backwards-compatibility
+relative_permalinks: false
+# Outputting
+permalink: date
+paginate_path: /page:num
+timezone: null
+quiet: false
+defaults: []
+# Markdown Processors
+maruku:
+use_tex: false
+use_divs: false
+png_engine: blahtex
+png_dir: images/latex
+png_url: /images/latex
+fenced_code_blocks: true
+rdiscount:
+extensions: []
+redcarpet:
+extensions: []
+kramdown:
+auto_ids: true
+footnote_nr: 1
+entity_output: as_char
+toc_levels: 1..6
+smart_quotes: lsquo,rsquo,ldquo,rdquo
+use_coderay: false
+coderay:
+coderay_wrap: div
+coderay_line_numbers: inline
+coderay_line_number_start: 1
+coderay_tab_width: 4
+coderay_bold_every: 10
+coderay_css: style
+redcloth:
+hard_breaks: true
+# ===== end jekyll default
+# ===== this block will override jekyll default config
+# Site settings
+title: My Own Ruby
+email: menik.damayanti.p@gmail.com
+description: "Learning Ruby ere"
+baseurl: ""
+url: "http://menikdp.github.io"
+twitter_username: _menikdp
+github_username: menikdp
+# Build settings
+markdown: kramdown
+permalink: /articles/:year/:month/:day/:title
+# DRY
+defaults:
+-
+scope:
+path: ""
+type: "posts"
+values:
+layout: "default"
+scope:
+path: "pages"
+type: "pages"
+values:
+layout: "default"
+sass:
+sass_dir: _sass
+style: :compressed
+coffee:
+style: :compressed
+paginate: 15
+paginate_path: /articles/:num
