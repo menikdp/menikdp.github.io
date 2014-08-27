@@ -30,7 +30,7 @@ excerpt_separator: "\n\n"
 detach:  false
 port:    4000
 host:    0.0.0.0
-baseurl: "/" # does not include hostname
+baseurl: "" # does not include hostname
 
 # Filtering Content
 show_drafts: null
@@ -91,7 +91,7 @@ redcloth:
 title: My Own Ruby
 email: menik.damayanti.p@gmail.com
 description: "Learning Ruby ere"
-baseurl: ""
+baseurl: "/"
 url: "http://menikdp.github.io"
 twitter_username: _menikdp
 github_username: menikdp
