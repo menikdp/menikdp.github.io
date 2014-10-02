@@ -29,9 +29,8 @@ Keren kan kalau melihat alamat blog yang kaya gini [menikdp.github.io][blogku] ?
 8. Ketik localhost:4000 di browser, tadaaaa :D
 
 9. Push folder ke github dengan cara :
-{% highlight ruby %}
-	test
-{% endhighlight %}
+      
+    <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">test</span></code></pre></div>
 
 10. Ketik nama folder tadi di browser, kalau berhasil nanti munculnya sama dengan yang di localhost:4000
 
