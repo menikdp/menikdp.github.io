@@ -16,10 +16,9 @@ Keren kan kalau melihat alamat blog yang kaya gini [menikdp.github.io][blogku] ?
 2. *Download* Ruby Installer dan Ruby DevKit sekalian. Jangan lupa <b>perhatikan versi Ruby dan versi DevKitnya</b> ya. Setelah itu, jalankan *installer* Ruby sampai selesai. Kemudian dobel klik juga pada devKit, taruh di folder yang gampang diketik (yang namanya simpel dan tidak mengandung spasi), punya saya di C:/sites
 
 3. Melalui cmd atau *command prompt*, masuk ke folder C:/sites (sengaja saya kumpulin jadi satu), *clone* repo yang ada di [Github][github] dengan cara : 
-{% highlight ruby%}
-	git clone git@github.com:username/<repo>.git
-{% endhighlight %}
-
+    
+    <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">test</span></code></pre></div>
+    
 4. Download Poole, kemudian ekstrak ke folder yang di-*clone* tadi. Jadi isi ekstrak Poole ada di dalam folder menikdp.github.io
 
 5. Masih di cmd, install Jekyll dengan ketik `gem install Jekyll` kemudian tunggu sampai prosesnya selesai. 
