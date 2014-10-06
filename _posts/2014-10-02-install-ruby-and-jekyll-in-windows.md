@@ -16,9 +16,7 @@ Keren kan kalau melihat alamat blog yang kaya gini [menikdp.github.io][blogku] ?
 
 3. Melalui cmd atau *command prompt*, masuk ke folder C:/sites (sengaja saya kumpulin jadi satu), *clone* repo yang ada di [Github][github] dengan cara : 
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">
-	git clone git@github.com:username/nama_repo.git
-</span></code></pre></div>
+    <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">git clone git@github.com:username/nama_repo.git</span></code></pre></div>
 
 4. Download [Poole][poole], kemudian ekstrak ke folder yang di-*clone* tadi. Jadi isi ekstrak [Poole][poole] ada di dalam folder menikdp.github.io
  
@@ -31,12 +29,10 @@ Keren kan kalau melihat alamat blog yang kaya gini [menikdp.github.io][blogku] ?
 8. Ketik `localhost:4000` di browser, tadaaaa :D
 
 9. Push folder ke github dengan cara :
+   
+   <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">git add .<br>git commit -m "your comment here"<br>git push origin master
+   </span></code></pre></div>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">
-    	git add .
-    	git commit -m "your comment here"
-    	git push origin master
-</span></code></pre></div>
 10. Ketik nama folder tadi di browser, kalau berhasil nanti munculnya sama dengan yang di localhost:4000
 
 
