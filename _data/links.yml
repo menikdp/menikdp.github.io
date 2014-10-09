@@ -1,0 +1,18 @@
+yunanhelmy: 
+  label: yunanhelmy
+  href: yunanhelmy.github.io
+blogku:
+  label: blogku
+  href: http://menikdp.github.io
+github:
+  label: github
+  href: http://github.com
+poole:
+  label: poole
+  href: https://github.com/poole/poole
+winjekyll:
+  label: winjekyll
+  href: http://jekyllrb.com/docs/installation/
+devkit:
+  label: devkit
+  href: http://rubyinstaller.org/downloads/

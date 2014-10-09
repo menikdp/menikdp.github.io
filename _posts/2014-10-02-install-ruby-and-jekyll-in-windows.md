@@ -7,10 +7,9 @@ categories: tutorial
 tags: install ruby in windows, intall jekyll in windows
 ---
 
-
 Keren kan kalau melihat alamat blog yang kaya gini [menikdp.github.io][blogku] ? muehehehe Saya coba mencari kesana kemari *alah*, sepertinya jarang ada tutorial tentang github dan jekyll yang berbahasa Indonesia, apalagi tutorial Ruby :( Postingan ini menjawab keresahan buat para pemula yang bener-bener mulai dari nol seperti saya (apalagi dengan OS Windows!), dan juga sebagai *self reminder* kalau-kalau saya inul si Jepie dan lupa cara bikin blog yang kece ini :P Langkah-langkahnya kadang mudah <del>kadang bikin gemes</del>, *you wanna try?*
 
-1. Buat akun di [Github][github], setelah melakukan verifikasi email, bisa langsung membuat repositori(selanjutnya kita bilang repo aja ya biar gak rempong) baru di [Github][github]. Punya saya nama repo-nya yaitu menikdp.github.io
+1. Buat akun di <a href="{{ site.data.links.github.href}}" target="_blank">{{ site.data.links.github.label}}</a>, setelah melakukan verifikasi email, bisa langsung membuat repositori(selanjutnya kita bilang repo aja ya biar gak rempong) baru di [Github][github]. Punya saya nama repo-nya yaitu menikdp.github.io
 
 2. *Download* [Ruby Installer dan Ruby DevKit][devkit] sekalian. Jangan lupa <b>perhatikan versi Ruby dan versi DevKitnya</b> ya. Setelah itu, jalankan *installer* Ruby sampai selesai. Kemudian dobel klik juga pada devKit, taruh di folder yang gampang diketik (yang namanya simpel dan tidak mengandung spasi), punya saya di C:/sites
 
@@ -37,10 +36,3 @@ Keren kan kalau melihat alamat blog yang kaya gini [menikdp.github.io][blogku] ?
 
 
 Fiuuuh, lumayan rempong yak? Sampai sini dulu yak. Penjelasan lainnya nyusul, saya mau belajar lagi sama Tuan nyiahahaha XD Kalau ada yang kurang jelas atau gak beres, monggo colek saya di menik.damayanti.p@gmail.com
-
-
-[blogku]: http://menikdp.github.io
-[github]: http://github.com
-[poole]: https://github.com/poole/poole
-[winjekyll]: http://jekyllrb.com/docs/installation/
-[devkit]: http://rubyinstaller.org/downloads/
