@@ -7,11 +7,11 @@ categories: tutorial
 tags: install ruby in windows, intall jekyll in windows
 ---
 
-Keren kan kalau melihat alamat blog yang kaya gini [{{site.data.links.blogku.label}}]({{ site.data.links.blogku.href}}){:target="_blank"} ? muehehehe Saya coba mencari kesana kemari *alah*, sepertinya jarang ada tutorial tentang github dan jekyll yang berbahasa Indonesia, apalagi tutorial Ruby :( Postingan ini menjawab keresahan buat para pemula yang bener-bener mulai dari nol seperti saya (apalagi dengan OS Windows!), dan juga sebagai *self reminder* kalau-kalau saya inul si Jepie dan lupa cara bikin blog yang kece ini :P Langkah-langkahnya kadang mudah <del>kadang bikin gemes</del>, *you wanna try?*
+Keren kan kalau melihat alamat blog yang kaya gini [menikdp.github.io]({{ site.data.links.blogku.href}}){:target="_blank"} ? muehehehe Saya coba mencari kesana kemari *alah*, sepertinya jarang ada tutorial tentang github dan jekyll yang berbahasa Indonesia, apalagi tutorial Ruby :( Postingan ini menjawab keresahan buat para pemula yang bener-bener mulai dari nol seperti saya (apalagi dengan OS Windows!), dan juga sebagai *self reminder* kalau-kalau saya inul si Jepie dan lupa cara bikin blog yang kece ini :P Langkah-langkahnya kadang mudah <del>kadang bikin gemes</del>, *you wanna try?*
 
 1. Buat akun di [{{site.data.links.github.label}}]({{ site.data.links.github.href}}){:target="_blank"}, setelah melakukan verifikasi email, bisa langsung membuat repositori(selanjutnya kita bilang repo aja ya biar gak rempong) baru di [{{site.data.links.github.label}}]({{ site.data.links.github.href}}){:target="_blank"}. Punya saya nama repo-nya yaitu menikdp.github.io
 
-2. *Download* [{{site.data.links.devkit.label}}]({{ site.data.links.devkit.href}}){:target="_blank"} sekalian. Jangan lupa <b>perhatikan versi Ruby dan versi DevKitnya</b> ya. Setelah itu, jalankan *installer* Ruby sampai selesai. Kemudian dobel klik juga pada devKit, taruh di folder yang gampang diketik (yang namanya simpel dan tidak mengandung spasi), punya saya di C:/sites
+2. Download *installer* Ruby buat windows, juga *Download* [{{site.data.links.devkit.label}}]({{ site.data.links.devkit.href}}){:target="_blank"} sekalian. Jangan lupa <b>perhatikan versi Ruby dan versi DevKitnya</b> ya. Setelah itu, jalankan *installer* Ruby sampai selesai. Kemudian dobel klik juga pada devKit, taruh di folder yang gampang diketik (yang namanya simpel dan tidak mengandung spasi), punya saya di C:/sites
 
 3. Melalui cmd atau *command prompt*, masuk ke folder C:/sites (sengaja saya kumpulin jadi satu), *clone* repo yang ada di [{{site.data.links.github.label}}]({{ site.data.links.github.href}}){:target="_blank"} dengan cara : 
 

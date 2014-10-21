@@ -377,6 +377,10 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
+/*post categories*/
+.post-categories {
+  color: #268bd2;
+}
 
 /*
  * Pagination
