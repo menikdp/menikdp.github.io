@@ -154,7 +154,7 @@ pre {
 }
 code {
   padding: .25em .5em;
-  font-size: 85%;
+  font-size: 90%;
   color: #bf616a;
   background-color: #f9f9f9;
   border-radius: 3px;
@@ -308,15 +308,15 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #303030;
 }
 .masthead-title a {
-  color: #505050;
+  color: #303030;
 }
 .masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
+  font-size: 50%;
+  font-weight: 200;
+  color: #9a9a9a;
   letter-spacing: 0;
 }
 
@@ -377,10 +377,7 @@ tbody tr:nth-child(odd) th {
   color: inherit;
 }
 
-/*post categories*/
-.post-categories {
-  color: #268bd2;
-}
+
 
 /*
  * Pagination

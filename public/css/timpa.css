@@ -1,0 +1,26 @@
+/*css override
+author : menikdp*/
+
+
+/*blog post or page title*/
+.page-title,
+.post-title{
+	color: #303030;
+	font-size: 1.3rem;
+}
+
+/*post categories*/
+.post-categories {
+  color: #268bd2;
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+}
+
+/*buat head*/
+
+
+/*body text*/
+p{
+	text-align: justify;
+}

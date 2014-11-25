@@ -90,7 +90,7 @@ redcloth:
 # Site settings
 title: My Own Ruby
 email: menik.damayanti.p@gmail.com
-description: "Learning Ruby ere"
+tagline: "Learning Ruby Here and There"
 baseurl: "/"
 url: "http://menikdp.github.io"
 twitter_username: _menikdp

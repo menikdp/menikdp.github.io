@@ -16,3 +16,6 @@ winjekyll:
 devkit:
   label: devkit
   href: http://rubyinstaller.org/downloads/
+joshualande:
+  label: joshualande
+  href: http://joshualande.com/jekyll-github-pages-poole/

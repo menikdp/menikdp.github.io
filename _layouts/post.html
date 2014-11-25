@@ -4,12 +4,18 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  <span class="post-categories">Tagged with {{ page.categories | join: ', ' }}</span>
+  <span class="post-date">{{ page.date | date_to_string }} || {{ page.categories | join: ', ' }}</span>
   {{ content }}
 </div>
+<div class="comment">
+  <br>
+  <br>
+  {% if page.comments %}
+    {% include disqus.html %}
+  {% endif %}
+</div>
 
-<div class="related">
+<!-- <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
@@ -23,4 +29,4 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-</div>
+</div> -->
