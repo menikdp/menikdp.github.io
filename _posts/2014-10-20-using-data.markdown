@@ -19,6 +19,5 @@ Cara bikinnya gampang :
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="nb">github<br>label: github<br>href: http://github.com</span></code></pre></div>
 
 4. Untuk memanggil link yang udah kita buat agak ribet sih dibandingkan jika link-link ini berada satu file dengan tulisan kita. Cara manggil kalo pake data kaya gini : {% gist d3376ed59bd0bb011b38 %}
-Kalo manggil langsung kaya gini : {% gist %}
 
 5. 
