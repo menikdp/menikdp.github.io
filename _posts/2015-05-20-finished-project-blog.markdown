@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Finished Project "Blog""
+title: "Finished Project 'Blog'"
 date: 2015-05-20 12:45:39 +0700
 comments: true
 categories: finished project
 tags: 
-thumbnail:
 ---
 
 Hehuheu lama beud tak *update* blog ini hehehe Kali ini saya senang sekali akhirnya bisa menyelesaikan tutorial yang ada [disini][rubytutorial]{:target="_blank"}. Cupu sik, tapi lumayan lah daripada lumanyun muahahaha :P
