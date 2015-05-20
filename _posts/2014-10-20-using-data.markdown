@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using Collection"
+title: "Using Data"
 date: 2014-10-20 02:56:58 +0700
 comments: true
 categories: tutorial
