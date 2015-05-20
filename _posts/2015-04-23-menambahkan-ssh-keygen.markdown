@@ -11,7 +11,7 @@ Maap lama tak posting disini muehehehe Kebanyakan blog dan jarang update semua :
 
 Semenjak inul Jepie menjadi dual-OS, saya gemes tiap kali bikin repo baru di github trus mau push, pasti terkendala masalah SSH Keygen. Akhirnya kemarin saya nurutin [ini][ssh]{:target="_blank"}  dan untungnya berhasil :D
 
-Oiya, setelah ditambahkan ssh keygen, ada baiknya mengganti remote url di setiap project supaya lebih gampang saat hendak push/pull untuk update project. Caranya bisa di cek di link [ini][changerurl]{:target="_blank"}.
+Oiya, setelah ditambahkan ssh keygen, ada baiknya mengganti remote url di setiap project supaya lebih gampang saat hendak push/pull untuk update project. Caranya bisa di cek di link [ini][changeurl]{:target="_blank"} .
 
 Simple trick biar gak masukin username ama password mulu LOL
 
