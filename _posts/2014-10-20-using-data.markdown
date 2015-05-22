@@ -6,7 +6,7 @@ comments: true
 categories: tutorial
 tags: 
 ---
-Kemarin saya habis tanya ama Tuan, masak iya tiap mau bikin link harus ditulis satu persatu di tiap bagian yang mau disambungkan? Kemudian di deskripsiin satu persatu di bagian bawah kode postingan? Kata Tuan sih bisa pakai data. Jadi link-link yang akan biasa kita gunakan dikumpulin jadi satu, kemudian tinggal manggil aja. Saya mah gak mudeng, tau-tau udah dibikinin aje ama Tuan, saya tinggal manggil dan nambahin aja hahahaha
+Kemarin saya habis tanya ama [{{site.data.links.tuan.label}}]({{ site.data.links.tuan.href}}){:target="_blank"}, masak iya tiap mau bikin link harus ditulis satu persatu di tiap bagian yang mau disambungkan? Kemudian di deskripsiin satu persatu di bagian bawah kode postingan? Kata [{{site.data.links.tuan.label}}]({{ site.data.links.tuan.href}}){:target="_blank"} sih bisa pakai data. Jadi link-link yang akan biasa kita gunakan dikumpulin jadi satu, kemudian tinggal manggil aja. Saya mah gak mudeng, tau-tau udah dibikinin aje ama [{{site.data.links.tuan.label}}]({{ site.data.links.tuan.href}}){:target="_blank"}, saya tinggal manggil dan nambahin aja hahahaha
 
 Cara bikinnya gampang :
 
@@ -21,6 +21,6 @@ Cara bikinnya gampang :
 
 Data ini enaknya dipake kalo kita sering merujuk ke alamat yang sama berkali-kali. Kalo cuma merujuk sekali tok, mending liat cara [ini][linked]{:target="_blank"}. 
 
-<strong>Ruby is Easy</strong>, right?!
+<strong>Ruby is Easy</strong>, right?! 
 
 [linked]: http://menikdp.github.io/articles/2014/10/19/membuat-link-di-postingan/
