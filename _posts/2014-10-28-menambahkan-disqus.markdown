@@ -12,4 +12,10 @@ Tutorial ini saya contek dari [sini]({{site.data.links.joshualande.href}}){:targ
 
 Betewe, karena Disqus loading-nya lama <del>maap ya disqus</del>, saya akhirnya beralih memakai G+ Comment box saja muahahaha. Untuk pasang G+ buat komentar, bisa di cek [di sini][komen]{:target="_blank"}. 
 
+<strong>Update!!</strong>
+
+Entah kenapa, tidak ada notif saat ada komen baru masuk di blog ini ketika saya pakai G+ -garukgaruktembok- akhirnya saya beralih lagi ke Disqus -labilnih- Oh iya, ternyata kemarin ada yang kurang saat saya masang Disqus, jadi dia gak mau load. Jadi kalo mau pake Disqus, jangan lupa register dulu website kita untuk mendapat hak akses sebagai moderator saat pakai Disqus. Lengkapnya bisa di cek [disini][disqus]{:target="_blank"}. Nah, baru ntar kita dikasih kode buat di tempel di web kita yang gunanya untuk load kotak komen dari Disqus.
+
+
 [komen]: http://steelx.github.io/best-internet-tips/2014/11/23/Add-google-plus-comments-box-to-jekyll-website.html
+[disqus]: https://help.disqus.com/customer/portal/articles/466182-publisher-quick-start-guide
