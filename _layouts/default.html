@@ -8,9 +8,15 @@
     <div class="container content">
       <div class="masthead">
         <h1 class="masthead-title">
-          <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a><br>
+          <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
           <small>{{ site.tagline }}</small>
         </h1>
+        <br>
+        <h3 class="masthead-title">
+          {% for page in site.page_list %}
+            <a href="{{ page[0]  }}">{{ page[0] }}</a>
+          {% endfor %}
+        </h3>
       </div>
 
       {{ content }}

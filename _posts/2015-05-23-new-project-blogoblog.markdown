@@ -3,7 +3,7 @@ layout: post
 title: "New Project 'blogoblog'"
 date: 2015-05-23 03:04:02 +0700
 comments: true
-categories: project, rails, blogoblog
+categories: project,rails,blogoblog
 tags: 
 thumbnail:
 ---

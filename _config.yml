@@ -95,6 +95,9 @@ baseurl: "/"
 url: "http://menikdp.github.io"
 twitter_username: _menikdp
 github_username: menikdp
+pages_list: 
+  About: '/about'
+  Archive: '/archive'
 
 # Build settings
 markdown: kramdown
